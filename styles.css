@@ -13,36 +13,31 @@ body {
 }
 
 /* Header */
+/* Header */
 header {
   background: #4caf50;
   color: #fff;
   padding: 10px 0;
 }
 
-.logo {
-  height: 25px; /* Adjust as needed */
-  width: auto;
-}
-
 header .container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header img.logo {
-  margin-right: 20px;
-}
-
-
-header h1 {
-  font-size: 1.8rem;
+  height: 60px; /* Adjust the size as needed */
+  width: auto;
 }
 
 header .menu {
   list-style: none;
   display: flex;
-  gap: 5px;
+  gap: 20px;
 }
 
 header .menu li a {
@@ -53,6 +48,18 @@ header .menu li a {
 
 header .menu li a:hover {
   text-decoration: underline;
+}
+
+}
+
+.logo {
+  height: 25px; /* Adjust as needed */
+  width: auto;
+}
+
+
+header h1 {
+  font-size: 1.8rem;
 }
 
 /* Hero Section */
