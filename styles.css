@@ -70,6 +70,11 @@ header h1 {
   font-size: 1.8rem;
 }
 
+.h1
+ width: 30px
+ height: 20px
+ color: black
+
 /* Hero Section */
 .hero {
   text-align: center;
@@ -81,8 +86,6 @@ header h1 {
   font-weight: 300; /* Lighter weight for emphasis */
   font-style: italic;
   font-size: 2rem;
-  font-weight: bold;
-  font-style: italic;
   color: #2c3e50;
   margin: 20px 0;
 }
