@@ -13,6 +13,10 @@ body {
   color: #f6f6f6;
 }
 
+.title
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
