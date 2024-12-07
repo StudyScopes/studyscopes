@@ -20,7 +20,7 @@ header {
 }
 
 .logo {
-  height: 40px; /* Adjust as needed */
+  height: 25px; /* Adjust as needed */
   width: auto;
 }
 
@@ -42,7 +42,7 @@ header h1 {
 header .menu {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 5px;
 }
 
 header .menu li a {
