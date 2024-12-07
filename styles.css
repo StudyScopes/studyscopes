@@ -5,14 +5,20 @@
   box-sizing: border-box;
 }
 
+/* Apply Modern Font */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   background-color: #000000;
   color: #f6f6f6;
 }
 
-/* Header */
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
 /* Header */
 header {
   background: #4caf50;
@@ -42,6 +48,7 @@ header .menu {
 }
 
 header .menu li a {
+  font-weight: 400;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -71,6 +78,8 @@ header h1 {
 }
 
 .hero blockquote {
+  font-weight: 300; /* Lighter weight for emphasis */
+  font-style: italic;
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
